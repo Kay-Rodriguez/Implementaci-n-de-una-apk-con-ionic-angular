@@ -13,10 +13,11 @@ Proyecto móvil creado con Ionic + Angular y Capacitor. Este repo incluye los pa
 - Java JDK (para gradle/keytool)
   
 ##Instalación de Capacitor
-#1. Crear nueva aplicación Capacitor
+
+1. Crear nueva aplicación Capacitor
 npm init @capacitor/app@latest
 
-#2. Añadir Capacitor a tu app web existente
+2. Añadir Capacitor a tu app web existente
 Instala dependencias:
 npm i @capacitor/core
 npm i -D @capacitor/cli
@@ -27,7 +28,7 @@ npx cap init
 Te pedirá nombre de la app y ID del paquete.
 <img width="693" height="329" alt="image" src="https://github.com/user-attachments/assets/4cafa8f7-1d62-42c8-b51f-47a246724172" />
 
-#3. Añadir plataformas nativas
+3. Añadir plataformas nativas
 npm i @capacitor/android @capacitor/ios
 npx cap add android
 npx cap add ios
@@ -50,7 +51,7 @@ Ver/Editar AndroidManifest.xml:
 Get-Content .\android\app\src\main\AndroidManifest.xml
 <img width="707" height="486" alt="image" src="https://github.com/user-attachments/assets/ff94d37d-31e5-415c-abba-868244be5140" />
 
-Ejecutar la app
+##Ejecutar la app
 ionic build
 npx cap copy android
 npx cap sync android
