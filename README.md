@@ -12,7 +12,7 @@ Proyecto móvil creado con Ionic + Angular y Capacitor. Este repo incluye los pa
 - Android Studio y Android SDK (incluye ADB)
 - Java JDK (para gradle/keytool)
   
-##Instalación de Capacitor
+## Instalación de Capacitor
 
 1. Crear nueva aplicación Capacitor
 npm init @capacitor/app@latest
@@ -38,7 +38,7 @@ npx cap add ios
 npx cap sync
 <img width="664" height="289" alt="image" src="https://github.com/user-attachments/assets/11108ee6-daac-40ee-a330-991e8fca54f0" />
 
-##Configuración de Icono y Splash
+## Configuración de Icono y Splash
 
 Para listar iconos y splash generados:
 <img width="691" height="574" alt="image" src="https://github.com/user-attachments/assets/5ca89569-5054-44b6-9c4d-4d008a627645" />
@@ -51,7 +51,7 @@ Ver/Editar AndroidManifest.xml:
 Get-Content .\android\app\src\main\AndroidManifest.xml
 <img width="707" height="486" alt="image" src="https://github.com/user-attachments/assets/ff94d37d-31e5-415c-abba-868244be5140" />
 
-##Ejecutar la app
+## Ejecutar la app
 ionic build
 npx cap copy android
 npx cap sync android
